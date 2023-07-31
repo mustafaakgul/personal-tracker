@@ -76,7 +76,7 @@ def registration_view(request):
     return render(request, "account/registration.html", context)
 
 
-@login_required(login_url = "accounts:authentication")
+#@login_required(login_url = "accounts:authentication")
 def settings(request, id):
     account = get_object_or_404(Account, id = id)
     context = {
