@@ -3,8 +3,8 @@ from django.conf import settings
 
 
 status = [
-    ("active", "Aktif"),
-    ("passive", "Pasif")
+    ("active", "Active"),
+    ("passive", "Passive")
 ]
 
 
